@@ -1,0 +1,311 @@
+body{
+    background-color: 	 #fcece9;
+    color: #260b41;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 5.625rem;
+    margin: 3.125rem auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #E14D2A;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #E14D2A;
+    font-weight: normal;
+    padding-bottom: 0.625rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #FD841F;
+}
+p{
+    line-height: 2;
+}
+a{
+    color: #E14D2A;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0.625rem 1.2rem;
+}
+a:hover{
+    color: #eaf6f6;
+}
+hr{
+    border-style: dotted none none;
+    border-top-width: 0.375rem;
+    border-color: #e6d3f8;
+    width: 5%;
+    margin: 6.25rem auto;
+}
+.top-cloud{
+    position: absolute;
+    right: 18.75rem;
+    top: 2.5rem;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 15.625rem;
+    bottom: 18.75rem;
+}
+.profile-img{
+    width: 25%;
+    border-radius: 50%;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.skill-1-img{
+    width: 25%;
+    float: left;
+    margin-right: 1.875rem;
+    margin-top: 0.438rem;
+    
+}
+.skill-2-img{
+    width: 25%;
+    float: right;
+    margin-left: 1.875rem;
+}
+.skill-row{
+    width: 50%;
+    margin: 6.255rem auto;
+    text-align: left;   
+}
+.top-container{
+    background-image: linear-gradient(180deg, #11051D 75%, #160B33 100%);
+    position: relative;
+    padding-top: 6.25rem;
+}
+.middle-container{
+    margin: 6.25rem 0;
+}
+.bottom-container{
+    background-color: #11051D;
+    padding: 3.125rem 0 1.25rem;
+} 
+.contact-message{
+    width: 40%;
+    margin: 2.5rem auto 3.75rem;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 1.25 0;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #E14D2A, #FD841F);
+    background-image: -moz-linear-gradient(top, #E14D2A, #FD841F);
+    background-image: -ms-linear-gradient(top, #E14D2A, #FD841F);
+    background-image: -o-linear-gradient(top, #E14D2A, #FD841F);
+    background-image: linear-gradient(to bottom, #E14D2A, #FD841F);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #11051D;
+    background-image: url(../images/lightning3.png);
+    background-position: center;
+    box-shadow: #FD841F -0.313rem 0.313rem 0.625rem 0.013rem;
+    text-decoration: none;
+  }
+
+/* Media queries */
+
+  @media screen and (max-width: 360px) {
+    .top-cloud{
+        position: absolute;
+        right: 14.25rem;
+        top: 0.5rem;
+        max-width: 30vw;
+    }
+    h1{
+        font-size: 4.375rem;
+        margin: auto 1rem;
+    }
+    h2{
+        font-size: 1.25rem;
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 13.625rem;
+        bottom: 12.75rem;
+        max-width: 30vw;
+    }
+    .volcano{
+        max-width: 100vw;
+    }
+    .intro{
+        width: auto;
+        margin: auto;
+    }
+    hr{
+        width: 30%;
+        margin: 3.75rem auto;
+    }
+    .skill-row{
+        width: auto;
+        margin: 4.255rem 1rem;
+        text-align: left;   
+    }
+    .contact-message{
+        width: auto;
+        margin: 2.5rem 1rem 3.75rem;
+    }
+    .link{
+        display: none;
+    } 
+  }
+
+  @media screen and (max-width: 400px) and (min-width: 360px) {
+    .top-cloud{
+        position: absolute;
+        right: 17.25rem;
+        top: 0.5rem;
+        max-width: 30vw;
+    }
+    h1{
+        font-size: 4.375rem;
+        margin: auto 0;
+    }
+    h2{
+        font-size: 1.25rem;
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 15.625rem;
+        bottom: 15.75rem;
+        max-width: 30vw;
+    }
+    .volcano{
+        max-width: 100vw;
+    }
+    .intro{
+        width: auto;
+        margin: auto;
+    }
+    hr{
+        width: 30%;
+        margin: 3.75rem auto;
+    }
+    .skill-row{
+        width: auto;
+        margin: 4.255rem 1rem;
+        text-align: left;   
+    }
+    .contact-message{
+        width: auto;
+        margin: 2.5rem 1rem 3.75rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) and (min-width: 400px) {
+    .top-cloud{
+        position: absolute;
+        right: 17.625rem;
+        top: 1rem;
+        max-width: 30vw;
+    }
+    h1{
+        font-size: 5rem;
+        margin: 1rem 1rem;
+    }
+    h2{
+        font-size: 2rem;
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 17.625rem;
+        bottom: 16.75rem;
+        max-width: 30vw;
+    }
+    .volcano{
+        max-width: 100vw;
+    }
+    .intro{
+        width: auto;
+        margin: auto;
+    }
+    hr{
+        border-style: dotted none none;
+        border-top-width: 0.375rem;
+        border-color: #e6d3f8;
+        width: 30%;
+        margin: 3.75rem auto;
+    }
+    .skill-row{
+        width: auto;
+        margin: 4.255rem 1.2rem;
+        text-align: left;   
+    }
+    .contact-message{
+        width: auto;
+        margin: 2.5rem 1.2rem 3.75rem;
+    }
+  }
+
+  @media screen and (max-width: 512px) and (min-width: 480px) {
+    .top-cloud{
+        position: absolute;
+        right: 19.625rem;
+        top: 1rem;
+        max-width: 30vw;
+    }
+    h1{
+        font-size: 5rem;
+        margin: 1rem 0 0;
+    }
+    h2{
+        font-size: 2rem;
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
+    .bottom-cloud{
+        position: absolute;
+        left: 19.625rem;
+        bottom: 16.75rem;
+        max-width: 30vw;
+    }
+    .volcano{
+        max-width: 100vw;
+    }
+    .intro{
+        width: auto;
+        margin: auto;
+    }
+    hr{
+        border-style: dotted none none;
+        border-top-width: 0.375rem;
+        border-color: #e6d3f8;
+        width: 30%;
+        margin: 3.75rem auto;
+    }
+    .skill-row{
+        width: auto;
+        margin: 4.255rem 1.2rem;
+        text-align: left;   
+    }
+    .contact-message{
+        width: auto;
+        margin: 2.5rem 1.2rem 3.75rem;
+    }
+  }
