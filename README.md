@@ -1,2 +1,2 @@
 # cv
-# Maanged by Preetam
+# Managed by Preetam
